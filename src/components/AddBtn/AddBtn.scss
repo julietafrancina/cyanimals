@@ -6,17 +6,20 @@
     margin: 0.5rem;
     transition: 650ms;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    span {
+    .icon {
         color: white;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-weight: 700;
         transition: 650ms;
     }
 
     &:hover {
         background-color: white;
-        span {
+        .icon {
             color: orangered;
         }
     }

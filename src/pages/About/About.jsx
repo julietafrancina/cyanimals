@@ -4,7 +4,7 @@ import './About.scss';
 const About = () => {
     return(
         <section className='about'>
-            <h2>Sobre Nosotros</h2>
+            <h1>Sobre Nosotros</h1>
             <p>
                 Somos parte del grupo Cyanogen y decidimos participar del primer Hackatón de
                 CourseIt "HackIt". Como producto de la consigna que nos dieron, hicimos esta
@@ -17,15 +17,17 @@ const About = () => {
                 amigo!
             </p>
 
-            <h3>Autores</h3>
-            <figure>
-                <img src='https://avatars.githubusercontent.com/u/67765730?s=460&u=467cbea668599b9b3237e2c9a24ae05dff50e3ce&v=4' />
-                <figcaption>Julieta Visser</figcaption>
-            </figure>
-            <figure>
-                <img src='https://avatars.githubusercontent.com/u/68615684?s=460&u=2c0abf14df135891d8caaf53531757e0b7744118&v=4' />
-                <figcaption>Javier Rodriguez</figcaption>
-            </figure>
+            <h2>Autores</h2>
+            <div className='authors'>
+                <figure>
+                    <img src='https://avatars.githubusercontent.com/u/67765730?s=460&u=467cbea668599b9b3237e2c9a24ae05dff50e3ce&v=4' />
+                    <figcaption>Julieta Visser</figcaption>
+                </figure>
+                <figure>
+                    <img src='https://avatars.githubusercontent.com/u/68615684?s=460&u=2c0abf14df135891d8caaf53531757e0b7744118&v=4' />
+                    <figcaption>Javier Rodriguez</figcaption>
+                </figure>
+            </div>
         </section>
     );
 }
