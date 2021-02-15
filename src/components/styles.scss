@@ -27,12 +27,15 @@
             -webkit-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            position: relative;
+            //position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
 
             .categoryIcon {
-                position: absolute;
-                right: 15px;
-                top: 15px;
+                //position: absolute;
+                margin-right: 15px;
+                margin-top: 15px;
                 border: none;
                 padding: 10px;
                 border-radius: 50%;
