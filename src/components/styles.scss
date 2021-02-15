@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+.cardsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #191919;
+
+    .cardContainer {
+        width: 80%;
+        margin: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        min-height: 350px;
+        background-color: #e9e9e9;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.9);
+
+        .imgContainer {
+            background-repeat: no-repeat;
+            background-position: center;
+            width: auto;
+            height: 200px;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .textContainer {
+            font-family: "Noto Sans JP", sans-serif;
+            padding: 1.2rem;
+            color: #191919;
+
+            .titleContainer {
+                display: flex;
+                margin-bottom: 1rem;
+                align-items: flex-end;
+
+                .petName {
+                    font-weight: 900;
+                    font-size: 1.3rem;
+                    margin-right: 1rem;
+                    display: inline-block;
+                }
+
+                .petAge {
+                    font-weight: 800;
+                    color: #3b3b3b;
+                }
+            }
+
+            .petLocation {
+                font-weight: 700;
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+
+            .petDescription {
+                font-weight: 400;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
