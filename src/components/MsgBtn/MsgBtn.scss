@@ -1,0 +1,23 @@
+.msgBtn{
+    background-color: white;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+    transition: 650ms;
+    cursor: pointer;
+
+    span {
+        color: orangered;
+        font-size: 2.5rem;
+        font-weight: 700;
+        transition: 650ms;
+    }
+
+    &:hover {
+        background-color: orangered;
+        span {
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.addBtn{
+    background-color: orangered;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+    transition: 650ms;
+    cursor: pointer;
+
+    span {
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 700;
+        transition: 650ms;
+    }
+
+    &:hover {
+        background-color: white;
+        span {
+            color: orangered;
+        }
+    }
+}
