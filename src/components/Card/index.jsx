@@ -1,4 +1,5 @@
 import "../styles.scss";
+import CategoryIcon from "../CategoryIcon";
 
 function Card(props) {
     return (
@@ -7,7 +8,8 @@ function Card(props) {
                 style={{
                     backgroundImage: `url(${props.pet.img})`
                 }}
-            ></div>
+            ><CategoryIcon category={props.pet.category}/>
+            </div>
             <div className="textContainer">
                 <div className="titleContainer">
                     <h1 className="petName">{props.pet.name}</h1>
