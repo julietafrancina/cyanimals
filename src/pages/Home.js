@@ -7,12 +7,6 @@ const Home = () => {
     console.log(pets);
     return (
         <>
-            <p>
-                fjdkhfjdjhfdjhfdsajhjgfgdfggerLorem ipsum dolor sit amet
-                consectetur adipisicing elit. Harum eveniet, maxime illum
-                possimus dolores sed odio quod quas voluptatem sunt iusto dicta,
-                est incidunt molestias! Voluptatem, debitis! Vero, odit hic!
-            </p>
             <Cards data={pets} />
             <ActionBtns />
         </>

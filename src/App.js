@@ -4,6 +4,7 @@ import "./App.scss";
 import Home from "./pages/Home";
 import Navbar from './components/Navbar/index';
 import About from "./pages/About/About";
+import "./reset.css";
 
 function App() {
     return (
