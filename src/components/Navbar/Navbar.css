@@ -21,6 +21,8 @@
     color: white;
     font-size: x-large;
     margin-right: 1rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
 }
 
 .menu-bars {
@@ -84,6 +86,8 @@
     align-items: center;   
 }
 
-span{
+.menuTitle{
     margin-left: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
 }
