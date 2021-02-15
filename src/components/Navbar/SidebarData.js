@@ -1,5 +1,6 @@
 import React from 'react';
 import * as FaIcons from "react-icons/fa";
+import * as IoIcons from "react-icons/io";
 
 export const SidebarData = [
     {
@@ -18,6 +19,12 @@ export const SidebarData = [
         title: 'Visto en la calle',
         path: '/visto-calle',
         icon: <FaIcons.FaBinoculars />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Sobre nosotros',
+        path: '/about',
+        icon: <IoIcons.IoMdPeople />,
         cName: 'nav-text'
     },
 ]

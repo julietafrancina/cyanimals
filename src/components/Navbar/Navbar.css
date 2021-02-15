@@ -1,9 +1,26 @@
+.navbar-container {
+    display: flex;
+    position: relative;
+}
+
 .navbar {
     background-color: #f84b25;
     height: 80px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    height: 80px;
+    color: white;
+    font-size: x-large;
+    margin-right: 1rem;
 }
 
 .menu-bars {
