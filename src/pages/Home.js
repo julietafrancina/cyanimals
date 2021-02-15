@@ -1,6 +1,7 @@
 import React from "react";
 import { pets } from "../components/pets";
 import Cards from "../components/Cards";
+import ActionBtns from "../components/ActionBtns";
 
 const Home = () => {
     console.log(pets);
@@ -13,6 +14,7 @@ const Home = () => {
                 est incidunt molestias! Voluptatem, debitis! Vero, odit hic!
             </p>
             <Cards data={pets} />
+            <ActionBtns />
         </>
     );
 };
