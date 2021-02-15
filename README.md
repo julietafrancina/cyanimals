@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Cyanimals
+Proyecto presentado en la 1° Hackatón de [CourseIt](https://courseit.io/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Propuesta
+A partir de la consigna: *Proyectos que mejoren la vida de nuestras mascotas (o potenciales mascotas)*, realizamos brainstorming y se nos ocurrió **Cyanimals**.
+El nombre Cyanimals viene de una mezcla entre *Cyan* y *animals*. Cyan proviene del nombre que teníamos en los proyectos *CMYK* de [FrontendCafé](https://frontend.cafe/). Y, claramente, animals por la temática.
 
-## Available Scripts
+Proponemos un sitio en donde las personas podrán buscar, adoptar una mascota y ser los mejores amigos :).
+Damos la opción de publicar animales en situación de calle y de tránsito, para poder dar una nueva oportunidad a ellos de tener un mejor hogar.
+Y por último, en el caso de que perdamos a nuestra mascota, podemos publicar un aviso de búsqueda.
 
-In the project directory, you can run:
+## Futuro
+Planeamos avanzar con este proyecto, ya que nos intersó bastante y podemos realizar una mejora en este tipo de búsquedas.
+Un caso de conocimiento público: Estas búsquedas se suelen hacer en *grupos de Facebook* y es muy fácil perder las publicaciones.
 
-### `npm start`
+## Stack utilizado
+Utilizamos *React.js* y en gran parte *SASS*.
+Luego queremos implementar *Firebase/Firestore* para poder alojar toda la información.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Instalación
+- Forkear este repositorio.
+- Clonar localmente el repositorio generado.
+- Instalar dependencia en la carpeta del proyecto con `npm install`.
+- Levantar localmente el proyecto con `npm run start`.
