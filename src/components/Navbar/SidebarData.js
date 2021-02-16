@@ -22,6 +22,12 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
+        title: 'Adopción',
+        path: '/adopcion',
+        icon: <FaIcons.FaHeart />,
+        cName: 'nav-text'
+    },
+    {
         title: 'Sobre nosotros',
         path: '/about',
         icon: <IoIcons.IoMdPeople />,
