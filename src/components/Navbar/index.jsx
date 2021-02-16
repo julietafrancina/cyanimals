@@ -20,7 +20,7 @@ function Navbar() {
                             <FaIcons.FaBars onClick={showSidebar} />
                         </Link>
                     </div>
-                    <h1 className='title'>🐱 Cyanimals 🐶</h1>
+                    <h1 className='title'><Link to="/">🐱 Cyanimals 🐶</Link></h1>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items' onClick={showSidebar} >

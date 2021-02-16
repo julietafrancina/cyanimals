@@ -39,8 +39,16 @@
             }
 
             figcaption {
+                display: flex;
+                align-items: center;
                 padding: 0.5rem;
                 font-size: 1.2rem;
+                vertical-align: middle;
+
+                .iconGit {
+                    font-size: 1.5rem;
+                    color: white;
+                }
             }
         }
     }

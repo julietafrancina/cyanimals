@@ -23,11 +23,15 @@
     align-items: center;
     justify-content: center;
     height: 80px;
-    color: white;
     font-size: x-large;
     margin-right: 1rem;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
 }
 
 .menu-bars {
