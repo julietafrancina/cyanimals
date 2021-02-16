@@ -5,7 +5,8 @@
     color: white;
     font-family: "Quicksand", sans-serif;
 
-    h1, h2 {
+    h1,
+    h2 {
         text-align: center;
         padding: 0.5rem;
         font-size: 2rem;
@@ -42,5 +43,12 @@
                 font-size: 1.2rem;
             }
         }
+    }
+}
+
+@media (min-width: 450px) {
+    .about {
+        max-width: 800px;
+        margin: 0 auto;
     }
 }
