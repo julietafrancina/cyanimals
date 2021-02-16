@@ -3,14 +3,14 @@ import { pets } from "../components/pets";
 import Cards from "../components/Cards";
 import ActionBtns from "../components/ActionBtns";
 
-const Stray = () => {
-    const strayPets = pets.filter(pets => pets.category == 'Callejero');
+const Adoption = () => {
+    const adoptionPets = pets.filter(pets => pets.category == 'Adopción');
     return (
         <>
-            <Cards data={strayPets} />
+            <Cards data={adoptionPets} />
             <ActionBtns />
         </>
     );
 };
 
-export default Stray;
+export default Adoption;
